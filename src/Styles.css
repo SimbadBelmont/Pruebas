@@ -1,0 +1,91 @@
+body{
+    
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 60px;
+}
+
+
+.dts{
+    background-color: aliceblue;
+    opacity: 0.6 ;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 32, 158);
+    color: rgb(32, 25, 37);
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    width: 100%;
+    margin: 5px 0;
+    
+}
+
+
+.boxes{
+    border: 1px solid rgb(24, 26, 161);
+    display: block;
+    columns: 4;
+    margin: 20px 0;
+      
+}
+.box{
+    margin: 15px 10px;
+}
+.lbl{
+    opacity: 0.8 ;
+    color: rgb(64, 41, 107);
+    margin: 10px 0; 
+    
+}
+label{
+    background-color: transparent;
+    font-size: 25px;
+    color: rgb(64, 41, 107);
+   
+   }
+   h1 {
+    font-size: 4rem;
+    color: rgb(167, 26, 148);
+    border-color: black;
+    font-family: papyrus;
+    text-shadow: 0px 0px 9px #e268c4;
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 2rem;
+    color: rgb(64, 41, 107);
+    border-color: black;
+    
+    
+  }
+  h3 {
+    font-size: 1.5rem;
+    color: rgb(64, 41, 107);
+    border-color: black;
+   
+    
+  }
+  img{
+    border-radius: 20px;
+    display: flex;
+    float: right;
+  
+  }
+  .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #9b59b6; /* Color lila */
+    color: #ffffff; /* Texto en blanco */
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: left; /* Transición suave al pasar el mouse */
+}
+
+/* Cambio de color al pasar el mouse */
+.button:hover {
+    background-color: #8e44ad; /* Color lila más oscuro */
+}
+
+.lnk{float: right;}
